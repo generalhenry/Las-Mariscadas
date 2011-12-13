@@ -17,34 +17,40 @@
     text-align: center;
     padding: 5px;
   }
+  h1 {
+    font-size: 3em;  
+  }
   h2 {
     color: #CC0000; 
     margin: 0;
   }
-  #foot > * {
+  header > h2 {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .foot > * {
     display: inline-block;
     vertical-align: middle;
+    margin: 0 5px;
   }
   #contact {
     font-weight: bold;
     font-style: italic;
+    margin: 1em;
   }
   #map {
     font-size: 2em;  
   }
   #closed {
-    background-color: #384;
-    color: #ED8;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
     width: 120px;
   }
 </style>
 <div id=main>
   <h1>Las Mariscadas</h1>
-  <h2>MARISCOS FRESCOS</h2>
-  <h2>FRESH SEAFOOD</h2>
+  <header>
+    <h2>MARISCOS FRESCOS</h2>
+    <h2>FRESH SEAFOOD</h2>
+  </header>
   <h3>MARISCOS FRESCOS A LOS MEJORES PRECIOS</h3>
   <h3>BEST PRICES ON FRESH SEAFOOD</h3>
   <p>
@@ -54,19 +60,17 @@
   </p>
   <h2>Especialidad en Mariscadas Calientes y Fríos</h2>
   <h2>Special Seafood Combos</h2>
-  <div id=foot>
-    <h2>Servicio a Domicillo</h2>
-    <div id=contact>
-      <div id=phone>
-        <span>Tel. 105 1563</span>
-        <span>Nextel 92'13'15241</span>
-      </div>
-      <a href=mailto:lasmariscadas@prodigy.net.mx>lasmariscadas@prodigy.net.mx</a>
+  <div id=contact>
+    <div id=phone>
+      <span>Tel. 105 1563</span>
+      <span>Nextel 92'13'15241</span>
     </div>
-    <a id=map href=http://wikimapia.org/22148709/Las-Mariscadas>Map</a>
-    <div id=closed>
-      <h3>Closed on Wednesday</h3>
-      <h3>Cerrado el Miércoles</h3>
-    </div>
+    <a href=mailto:lasmariscadas@prodigy.net.mx>lasmariscadas@prodigy.net.mx</a>
   </div>
+  <div class=foot>
+    <h3>Closed on Wednesday</h3>
+    <h2>Servicio a Domicillo</h2>
+    <h3>Cerrado el Miércoles</h3>
+  </div>
+  <a id=map href=http://wikimapia.org/22148709/Las-Mariscadas>Map</a>
 </div>
